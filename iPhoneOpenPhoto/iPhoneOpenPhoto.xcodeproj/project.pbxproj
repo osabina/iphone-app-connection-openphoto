@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD247F6413CC9C600035A041 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD247F6313CC9C600035A041 /* UIKit.framework */; };
+		CD247F6613CC9C600035A041 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD247F6513CC9C600035A041 /* Foundation.framework */; };
+		CD247F6813CC9C600035A041 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD247F6713CC9C600035A041 /* CoreGraphics.framework */; };
+		CD247F6E13CC9C600035A041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD247F6C13CC9C600035A041 /* InfoPlist.strings */; };
+		CD247F7113CC9C600035A041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD247F7013CC9C600035A041 /* main.m */; };
+		CD247F7413CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD247F7313CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.m */; };
+		CD247F7713CC9C600035A041 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD247F7513CC9C600035A041 /* MainWindow.xib */; };
+		CD247F7A13CC9C600035A041 /* iPhoneOpenPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD247F7913CC9C600035A041 /* iPhoneOpenPhotoViewController.m */; };
+		CD247F7D13CC9C600035A041 /* iPhoneOpenPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD247F7B13CC9C600035A041 /* iPhoneOpenPhotoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD247F5F13CC9C600035A041 /* iPhoneOpenPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneOpenPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD247F6313CC9C600035A041 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD247F6513CC9C600035A041 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD247F6713CC9C600035A041 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD247F6B13CC9C600035A041 /* iPhoneOpenPhoto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneOpenPhoto-Info.plist"; sourceTree = "<group>"; };
+		CD247F6D13CC9C600035A041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD247F6F13CC9C600035A041 /* iPhoneOpenPhoto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneOpenPhoto-Prefix.pch"; sourceTree = "<group>"; };
+		CD247F7013CC9C600035A041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD247F7213CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneOpenPhotoAppDelegate.h; sourceTree = "<group>"; };
+		CD247F7313CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneOpenPhotoAppDelegate.m; sourceTree = "<group>"; };
+		CD247F7613CC9C600035A041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CD247F7813CC9C600035A041 /* iPhoneOpenPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneOpenPhotoViewController.h; sourceTree = "<group>"; };
+		CD247F7913CC9C600035A041 /* iPhoneOpenPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneOpenPhotoViewController.m; sourceTree = "<group>"; };
+		CD247F7C13CC9C600035A041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPhoneOpenPhotoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD247F5C13CC9C600035A041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD247F6413CC9C600035A041 /* UIKit.framework in Frameworks */,
+				CD247F6613CC9C600035A041 /* Foundation.framework in Frameworks */,
+				CD247F6813CC9C600035A041 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD247F5413CC9C600035A041 = {
+			isa = PBXGroup;
+			children = (
+				CD247F6913CC9C600035A041 /* iPhoneOpenPhoto */,
+				CD247F6213CC9C600035A041 /* Frameworks */,
+				CD247F6013CC9C600035A041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD247F6013CC9C600035A041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD247F5F13CC9C600035A041 /* iPhoneOpenPhoto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD247F6213CC9C600035A041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD247F6313CC9C600035A041 /* UIKit.framework */,
+				CD247F6513CC9C600035A041 /* Foundation.framework */,
+				CD247F6713CC9C600035A041 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD247F6913CC9C600035A041 /* iPhoneOpenPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				CD247F7213CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.h */,
+				CD247F7313CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.m */,
+				CD247F7513CC9C600035A041 /* MainWindow.xib */,
+				CD247F7813CC9C600035A041 /* iPhoneOpenPhotoViewController.h */,
+				CD247F7913CC9C600035A041 /* iPhoneOpenPhotoViewController.m */,
+				CD247F7B13CC9C600035A041 /* iPhoneOpenPhotoViewController.xib */,
+				CD247F6A13CC9C600035A041 /* Supporting Files */,
+			);
+			path = iPhoneOpenPhoto;
+			sourceTree = "<group>";
+		};
+		CD247F6A13CC9C600035A041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD247F6B13CC9C600035A041 /* iPhoneOpenPhoto-Info.plist */,
+				CD247F6C13CC9C600035A041 /* InfoPlist.strings */,
+				CD247F6F13CC9C600035A041 /* iPhoneOpenPhoto-Prefix.pch */,
+				CD247F7013CC9C600035A041 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD247F5E13CC9C600035A041 /* iPhoneOpenPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD247F8013CC9C600035A041 /* Build configuration list for PBXNativeTarget "iPhoneOpenPhoto" */;
+			buildPhases = (
+				CD247F5B13CC9C600035A041 /* Sources */,
+				CD247F5C13CC9C600035A041 /* Frameworks */,
+				CD247F5D13CC9C600035A041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneOpenPhoto;
+			productName = iPhoneOpenPhoto;
+			productReference = CD247F5F13CC9C600035A041 /* iPhoneOpenPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD247F5613CC9C600035A041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Moogu bvba";
+			};
+			buildConfigurationList = CD247F5913CC9C600035A041 /* Build configuration list for PBXProject "iPhoneOpenPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD247F5413CC9C600035A041;
+			productRefGroup = CD247F6013CC9C600035A041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD247F5E13CC9C600035A041 /* iPhoneOpenPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD247F5D13CC9C600035A041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD247F6E13CC9C600035A041 /* InfoPlist.strings in Resources */,
+				CD247F7713CC9C600035A041 /* MainWindow.xib in Resources */,
+				CD247F7D13CC9C600035A041 /* iPhoneOpenPhotoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD247F5B13CC9C600035A041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD247F7113CC9C600035A041 /* main.m in Sources */,
+				CD247F7413CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.m in Sources */,
+				CD247F7A13CC9C600035A041 /* iPhoneOpenPhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD247F6C13CC9C600035A041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD247F6D13CC9C600035A041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD247F7513CC9C600035A041 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD247F7613CC9C600035A041 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CD247F7B13CC9C600035A041 /* iPhoneOpenPhotoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD247F7C13CC9C600035A041 /* en */,
+			);
+			name = iPhoneOpenPhotoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD247F7E13CC9C600035A041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD247F7F13CC9C600035A041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CD247F8113CC9C600035A041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneOpenPhoto/iPhoneOpenPhoto-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneOpenPhoto/iPhoneOpenPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD247F8213CC9C600035A041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneOpenPhoto/iPhoneOpenPhoto-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneOpenPhoto/iPhoneOpenPhoto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD247F5913CC9C600035A041 /* Build configuration list for PBXProject "iPhoneOpenPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD247F7E13CC9C600035A041 /* Debug */,
+				CD247F7F13CC9C600035A041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD247F8013CC9C600035A041 /* Build configuration list for PBXNativeTarget "iPhoneOpenPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD247F8113CC9C600035A041 /* Debug */,
+				CD247F8213CC9C600035A041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD247F5613CC9C600035A041 /* Project object */;
+}
