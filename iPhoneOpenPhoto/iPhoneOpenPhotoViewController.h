@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SBJson.h" 
 
 @interface iPhoneOpenPhotoViewController : UIViewController {
     
+    NSMutableData *responseData;
 }
 
 @end
