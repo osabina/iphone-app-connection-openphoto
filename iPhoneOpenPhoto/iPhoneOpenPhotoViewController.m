@@ -58,8 +58,19 @@
         NSLog(@"Photo Title: %@", (title.length > 0 ? title : @"Untitled"));
         NSString *photoURLString = [NSString stringWithFormat:@"http://%@%@", [photo objectForKey:@"host"], [photo objectForKey:@"path200x200"]];
         NSLog(@"Photo url: %@ \n\n", photoURLString);
+        
+        /*
+         
+         NSMutableArray  *photoTitles;         // Titles of images
+         NSMutableArray  *photoSmallImageData; // Image data (thumbnail)
+         NSMutableArray  *photoURLsLargeImage; // URL to larger image 
+         
+         [photoTitles addObject:(title.length > 0 ? title : @"Untitled")];
+         [photoSmallImageData addObject:[NSData dataWithContentsOfURL:[NSURL URLWithString:photoURLString]]];
+         [photoURLsLargeImage addObject:[NSURL URLWithString:photoURLString]]; 
+         
+         */
     } 
-    
 }
 
 
