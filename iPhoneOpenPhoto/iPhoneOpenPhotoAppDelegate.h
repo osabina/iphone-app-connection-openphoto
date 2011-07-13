@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SBJson.h" 
 
 @class iPhoneOpenPhotoViewController;
 

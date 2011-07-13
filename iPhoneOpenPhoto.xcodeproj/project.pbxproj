@@ -16,6 +16,18 @@
 		CD247F7713CC9C600035A041 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD247F7513CC9C600035A041 /* MainWindow.xib */; };
 		CD247F7A13CC9C600035A041 /* iPhoneOpenPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD247F7913CC9C600035A041 /* iPhoneOpenPhotoViewController.m */; };
 		CD247F7D13CC9C600035A041 /* iPhoneOpenPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD247F7B13CC9C600035A041 /* iPhoneOpenPhotoViewController.xib */; };
+		CDBDCED013CDDEF500702ACE /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEB813CDDEF500702ACE /* NSObject+SBJson.m */; };
+		CDBDCED113CDDEF500702ACE /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEBB13CDDEF500702ACE /* SBJsonParser.m */; };
+		CDBDCED213CDDEF500702ACE /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEBD13CDDEF500702ACE /* SBJsonStreamParser.m */; };
+		CDBDCED313CDDEF500702ACE /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEBF13CDDEF500702ACE /* SBJsonStreamParserAccumulator.m */; };
+		CDBDCED413CDDEF500702ACE /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEC113CDDEF500702ACE /* SBJsonStreamParserAdapter.m */; };
+		CDBDCED513CDDEF500702ACE /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEC313CDDEF500702ACE /* SBJsonStreamParserState.m */; };
+		CDBDCED613CDDEF500702ACE /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEC513CDDEF500702ACE /* SBJsonStreamWriter.m */; };
+		CDBDCED713CDDEF500702ACE /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEC713CDDEF500702ACE /* SBJsonStreamWriterAccumulator.m */; };
+		CDBDCED813CDDEF500702ACE /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCEC913CDDEF500702ACE /* SBJsonStreamWriterState.m */; };
+		CDBDCED913CDDEF500702ACE /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCECB13CDDEF500702ACE /* SBJsonTokeniser.m */; };
+		CDBDCEDA13CDDEF500702ACE /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCECD13CDDEF500702ACE /* SBJsonUTF8Stream.m */; };
+		CDBDCEDB13CDDEF500702ACE /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBDCECF13CDDEF500702ACE /* SBJsonWriter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +45,31 @@
 		CD247F7813CC9C600035A041 /* iPhoneOpenPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneOpenPhotoViewController.h; sourceTree = "<group>"; };
 		CD247F7913CC9C600035A041 /* iPhoneOpenPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneOpenPhotoViewController.m; sourceTree = "<group>"; };
 		CD247F7C13CC9C600035A041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iPhoneOpenPhotoViewController.xib; sourceTree = "<group>"; };
+		CDBDCEB713CDDEF500702ACE /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		CDBDCEB813CDDEF500702ACE /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		CDBDCEB913CDDEF500702ACE /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		CDBDCEBA13CDDEF500702ACE /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		CDBDCEBB13CDDEF500702ACE /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		CDBDCEBC13CDDEF500702ACE /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		CDBDCEBD13CDDEF500702ACE /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		CDBDCEBE13CDDEF500702ACE /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		CDBDCEBF13CDDEF500702ACE /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		CDBDCEC013CDDEF500702ACE /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		CDBDCEC113CDDEF500702ACE /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		CDBDCEC213CDDEF500702ACE /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		CDBDCEC313CDDEF500702ACE /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		CDBDCEC413CDDEF500702ACE /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		CDBDCEC513CDDEF500702ACE /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		CDBDCEC613CDDEF500702ACE /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		CDBDCEC713CDDEF500702ACE /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		CDBDCEC813CDDEF500702ACE /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		CDBDCEC913CDDEF500702ACE /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		CDBDCECA13CDDEF500702ACE /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		CDBDCECB13CDDEF500702ACE /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		CDBDCECC13CDDEF500702ACE /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		CDBDCECD13CDDEF500702ACE /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		CDBDCECE13CDDEF500702ACE /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		CDBDCECF13CDDEF500702ACE /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +116,7 @@
 		CD247F6913CC9C600035A041 /* iPhoneOpenPhoto */ = {
 			isa = PBXGroup;
 			children = (
+				CDBDCEB513CDDE5E00702ACE /* JSON */,
 				CD247F7213CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.h */,
 				CD247F7313CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.m */,
 				CD247F7513CC9C600035A041 /* MainWindow.xib */,
@@ -99,6 +137,38 @@
 				CD247F7013CC9C600035A041 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDBDCEB513CDDE5E00702ACE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				CDBDCEB713CDDEF500702ACE /* NSObject+SBJson.h */,
+				CDBDCEB813CDDEF500702ACE /* NSObject+SBJson.m */,
+				CDBDCEB913CDDEF500702ACE /* SBJson.h */,
+				CDBDCEBA13CDDEF500702ACE /* SBJsonParser.h */,
+				CDBDCEBB13CDDEF500702ACE /* SBJsonParser.m */,
+				CDBDCEBC13CDDEF500702ACE /* SBJsonStreamParser.h */,
+				CDBDCEBD13CDDEF500702ACE /* SBJsonStreamParser.m */,
+				CDBDCEBE13CDDEF500702ACE /* SBJsonStreamParserAccumulator.h */,
+				CDBDCEBF13CDDEF500702ACE /* SBJsonStreamParserAccumulator.m */,
+				CDBDCEC013CDDEF500702ACE /* SBJsonStreamParserAdapter.h */,
+				CDBDCEC113CDDEF500702ACE /* SBJsonStreamParserAdapter.m */,
+				CDBDCEC213CDDEF500702ACE /* SBJsonStreamParserState.h */,
+				CDBDCEC313CDDEF500702ACE /* SBJsonStreamParserState.m */,
+				CDBDCEC413CDDEF500702ACE /* SBJsonStreamWriter.h */,
+				CDBDCEC513CDDEF500702ACE /* SBJsonStreamWriter.m */,
+				CDBDCEC613CDDEF500702ACE /* SBJsonStreamWriterAccumulator.h */,
+				CDBDCEC713CDDEF500702ACE /* SBJsonStreamWriterAccumulator.m */,
+				CDBDCEC813CDDEF500702ACE /* SBJsonStreamWriterState.h */,
+				CDBDCEC913CDDEF500702ACE /* SBJsonStreamWriterState.m */,
+				CDBDCECA13CDDEF500702ACE /* SBJsonTokeniser.h */,
+				CDBDCECB13CDDEF500702ACE /* SBJsonTokeniser.m */,
+				CDBDCECC13CDDEF500702ACE /* SBJsonUTF8Stream.h */,
+				CDBDCECD13CDDEF500702ACE /* SBJsonUTF8Stream.m */,
+				CDBDCECE13CDDEF500702ACE /* SBJsonWriter.h */,
+				CDBDCECF13CDDEF500702ACE /* SBJsonWriter.m */,
+			);
+			name = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +237,18 @@
 				CD247F7113CC9C600035A041 /* main.m in Sources */,
 				CD247F7413CC9C600035A041 /* iPhoneOpenPhotoAppDelegate.m in Sources */,
 				CD247F7A13CC9C600035A041 /* iPhoneOpenPhotoViewController.m in Sources */,
+				CDBDCED013CDDEF500702ACE /* NSObject+SBJson.m in Sources */,
+				CDBDCED113CDDEF500702ACE /* SBJsonParser.m in Sources */,
+				CDBDCED213CDDEF500702ACE /* SBJsonStreamParser.m in Sources */,
+				CDBDCED313CDDEF500702ACE /* SBJsonStreamParserAccumulator.m in Sources */,
+				CDBDCED413CDDEF500702ACE /* SBJsonStreamParserAdapter.m in Sources */,
+				CDBDCED513CDDEF500702ACE /* SBJsonStreamParserState.m in Sources */,
+				CDBDCED613CDDEF500702ACE /* SBJsonStreamWriter.m in Sources */,
+				CDBDCED713CDDEF500702ACE /* SBJsonStreamWriterAccumulator.m in Sources */,
+				CDBDCED813CDDEF500702ACE /* SBJsonStreamWriterState.m in Sources */,
+				CDBDCED913CDDEF500702ACE /* SBJsonTokeniser.m in Sources */,
+				CDBDCEDA13CDDEF500702ACE /* SBJsonUTF8Stream.m in Sources */,
+				CDBDCEDB13CDDEF500702ACE /* SBJsonWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +361,7 @@
 				CD247F8213CC9C600035A041 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

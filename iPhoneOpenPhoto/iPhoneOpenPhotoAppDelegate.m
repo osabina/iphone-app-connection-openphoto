@@ -23,6 +23,10 @@
      
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
+    
+    // test JSON
+    NSLog(@"Parsed some JSON: %@", [@"[1,2,3,true,false,null]" JSONValue]);
+    
     return YES;
 }
 
